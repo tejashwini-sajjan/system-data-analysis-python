@@ -1,15 +1,31 @@
-# System Data Analysis – Python
+# System Data Analysis - Python
 
 ## Project Overview
 
-Analyzed system log records using Python and Pandas to identify anomaly patterns and monitor system health.
+Analyzed 575K+ system log records using Python and Pandas to identify anomaly patterns and monitor system health.
+
+## Key Findings
+
+- Total Records: 575,061
+- Normal Events: 558,223
+- Anomaly Events: 16,838
+- Anomaly Rate: 2.93%
 
 ## Features
 
 - Data Cleaning
-- Anomaly Analysis
+- Anomaly Detection
+- Data Analysis
 - Data Visualization
 - Automated Reporting
+
+## Visualizations
+
+### Normal vs Anomaly Events
+Shows the distribution of normal and anomaly records.
+
+### Anomaly Distribution
+Shows anomaly percentage across all system events.
 
 ## Tools Used
 
@@ -17,13 +33,3 @@ Analyzed system log records using Python and Pandas to identify anomaly patterns
 - Pandas
 - Matplotlib
 - Seaborn
-
-## Dataset
-
-HDFS Log Dataset (LogHub)
-
-## Visualizations
-
-- Normal vs Anomaly Events
-- Anomaly Distribution# system-data-analysis-python
-System Data Analysis using Python, Pandas, and Data Visualization
